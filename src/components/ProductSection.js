@@ -37,8 +37,9 @@ const ProductCard = styled.div`
 
 const ProductImage = styled.img`
   width: 100%;
-  height: 250px;
+  height: 200px;
   object-fit: cover;
+  padding-bottom: 25%;
   transition: opacity 0.3s ease-in-out;
 
   ${ProductCard}:hover & {
@@ -47,12 +48,13 @@ const ProductImage = styled.img`
 `;
 
 const ProductInfo = styled.div`
-  padding: 15px;
+  padding: 5px;
   text-align: center;
   background: white;
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 25%;
   opacity: 0.9;
   transition: opacity 0.3s ease-in-out;
   box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);

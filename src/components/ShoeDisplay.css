@@ -1,0 +1,21 @@
+.shoe-display {
+    text-align: center;
+  }
+
+  .main-image {
+    width: 50%;
+    max-height: 500px;
+  }
+  
+  .thumbnail {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border: none; /* Default no border */
+  }
+  
+  .thumbnail.selected {
+    border: 2px solid blue; /* Highlight selected thumbnail */
+  }
+  
